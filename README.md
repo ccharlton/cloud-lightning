@@ -76,7 +76,7 @@ For those who prefer to include these settings. Good for multi-site Drupal insta
 
 // NOTE: same folder as `settings.php`
 $cloud_provider_inc = 'cloud-lightning/provider/settings.cloud-provider.inc'; // EDIT THIS
-if (file_exists(dirname(__FILE__).'/'.$cloud_provider_inc)) {}
+if (file_exists(dirname(__FILE__).'/'.$cloud_provider_inc)) {
   require $cloud_provider_inc;
 }
 ```
