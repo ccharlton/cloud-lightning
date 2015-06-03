@@ -35,6 +35,8 @@ Editing `settings.php`
 
 Either method below will work. One method isn't better over the other; don't overthink it.
 
+The official [Drupal `$conf` array documentation](https://www.drupal.org/node/1525472) is available if you want to know what other core variables you can customize.
+
 Simple Copy+Paste Method: (non-working example)
 -----------------------------------------------
 
