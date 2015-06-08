@@ -30,12 +30,12 @@ if (!empty($server_env)) {
     $files_private_conf_path = conf_path(); // Not used, but ready for you to use.
     $conf['file_temporary_path'] = '/tmp'; // EDIT THIS (full path)
     $conf['file_private_path'] = '/var/www/files-private'; // EDIT THIS (full path)
-    $conf['file_public_path'] = 'files'; // EDIT THIS (relative path)
+    $conf['file_public_path'] = 'sites/default/files'; // EDIT THIS (relative path)
   }
   else {
     $conf['file_temporary_path'] = '/tmp'; // Local full path, or a default you choose.
     # $conf['file_private_path'] = '{PATH}'; // Local full path, or a default you choose.
-    # $conf['file_public_path'] = 'files'; // Local releative path, or a default you choose.
+    # $conf['file_public_path'] = 'sites/default/files'; // Local releative path, or a default you choose.
   }
 
 
